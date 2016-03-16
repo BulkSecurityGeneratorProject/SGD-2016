@@ -1,0 +1,6 @@
+sgd2016-sonar:
+  container_name: sgd2016-sonar
+  image: sonarqube:4.5.6
+  ports:
+    - "9000:9000"
+    - "9092:9092"

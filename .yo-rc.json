@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "sgd2016",
+    "packageName": "org.antonini.sgd2016",
+    "packageFolder": "org/antonini/sgd2016",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "9f6df36a5c6811580b3a742e6537cc31d606c534",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
