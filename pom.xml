@@ -640,8 +640,8 @@
                     <driver>org.postgresql.Driver</driver>
                     <url>jdbc:postgresql://localhost:5432/sgd2016</url>
                     <defaultSchemaName />
-                    <username>sgd2016</username>
-                    <password />
+                    <username>postgres</username>
+                    <password>postgres</password>
                     <referenceUrl>hibernate:spring:org.antonini.sgd2016.domain?dialect=org.hibernate.dialect.PostgreSQL82Dialect</referenceUrl>
                     <verbose>true</verbose>
                     <logging>debug</logging>
